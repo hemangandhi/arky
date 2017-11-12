@@ -548,5 +548,3 @@ class Transport:
 	@staticmethod
 	def getStatus(**param):
 		return get('/peer/status', **param)
-
-use()
